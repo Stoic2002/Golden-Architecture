@@ -45,11 +45,13 @@ temp/
 __debug_bin*
 debug
 
-# Config overrides (keep config.yaml, ignore local overrides)
+# Config overrides (ignore actual config, keep example)
+configs/config.yaml
 configs/config.local.yaml
 configs/*.local.yaml
 
 # Go workspace
 go.work
 go.work.sum
+
 
